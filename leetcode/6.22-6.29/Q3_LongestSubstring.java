@@ -29,7 +29,7 @@ public class Q3_LongestSubstring {
      *  Time Complexity: O(n²)
      *  Space Complexity: O(k)
      */
-    
+
     public int lengthOfLongestSubstring(String s) {
         if(s.length() ==0 || s == null){
             return 0;
